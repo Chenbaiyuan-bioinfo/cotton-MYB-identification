@@ -1,0 +1,20 @@
+name: cotton_myb_analysis
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+
+  - python=3.10
+  - biopython
+  - pandas
+  - numpy
+
+  - hmmer
+  - blast
+
+  - r-base=4.3
+  - r-ggplot2
+

@@ -1,0 +1,61 @@
+README_backup.md
+# Raw data
+cotton_protein.faa
+ncbi_dataset/
+ncbi_dataset.zip
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temporary files
+*.tmp
+*.log
+
+# Conda environment
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Raw genome/protein data
+cotton_protein.faa
+ncbi_dataset/
+ncbi_dataset.zip
+
+# HMM database files
+*.h3f
+*.h3i
+*.h3m
+*.h3p
+
+# Intermediate analysis files
+myb_domains.txt
+myb_results.txt
+myb_search_full.out
+myb_high_confidence.txt
+myb_gene_ids.txt
+myb_candidates.fasta
+
+# BLAST database
+my_gene_db.*
+
+# Old experiments
+old_test_files/
+
+# Misc files
+apple/
+sample*.fastq
+expression.txt
+fruits.txt
+genes.txt
+query.fasta
+result.txt
+md5sum.txt
+README_backup.md
+
+# Old generated files
+apple
+gene_plot.png
+my_sequences.fasta
