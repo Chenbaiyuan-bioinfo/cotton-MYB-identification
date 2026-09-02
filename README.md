@@ -176,25 +176,25 @@ GCF_007990345.1
 conda env create -f environment.yml
 ```
 
-##运行脚本
+## 运行脚本
 
+```bash
 python scripts/01_extract_sequences.py
 python scripts/02_sequence_statistics.py
 python scripts/03_count_domains.py
 Rscript scripts/04_plot_length_distribution.R
+```
 
-
-##项目结构
-
+## 项目结构
+```
 .
-├── data/          # 输入数据
-├── scripts/       # 分析脚本
-├── results/       # 结果图表
-├── environment.yml # Conda环境配置
-└── README.md      # 项目说明
+├── data/
+├── scripts/
+├── results/
+├── environment.yml
+└── README.md
+```
 
-
-##作者
-
+## 作者
 陈栢沅，河北农业大学农学院。
-本项目为独立生物信息学学习课题。
+本项目为独立生物信息学学习课题。。
