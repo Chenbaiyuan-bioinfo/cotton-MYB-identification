@@ -174,7 +174,7 @@ GCF_007990345.1
 创建环境：
 ```bash
 conda env create -f environment.yml
-
+```
 
 ##运行脚本
 
