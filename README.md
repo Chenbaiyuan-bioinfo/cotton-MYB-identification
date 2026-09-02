@@ -197,4 +197,4 @@ Rscript scripts/04_plot_length_distribution.R
 
 ## 作者
 陈栢沅，河北农业大学农学院。
-本项目为独立生物信息学学习课题。。
+本项目为独立生物信息学学习课题。
