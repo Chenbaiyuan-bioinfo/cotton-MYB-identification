@@ -91,8 +91,7 @@ Rscript scripts/04_plot_length_distribution.R
 
 ## Author
 
-ChenBaiyuan
-College of Agronomy, Hebei Agricultural University.
+Chen
 This project was completed as part of independent bioinformatics training.
 
 ------
@@ -196,5 +195,5 @@ Rscript scripts/04_plot_length_distribution.R
 ```
 
 ## 作者
-陈栢沅，河北农业大学农学院。
+陈
 本项目为独立生物信息学学习课题。
