@@ -1,61 +1,32 @@
-README_backup.md
-# Raw data
+# Raw genome/protein data (too large for GitHub)
 cotton_protein.faa
+cotton_protein_new.faa*
+cotton_protein_db.*
 ncbi_dataset/
 ncbi_dataset.zip
+ncbi_download/
 
-# Python cache
-__pycache__/
-*.pyc
-
-# Temporary files
-*.tmp
-*.log
-
-# Conda environment
-.env
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Raw genome/protein data
-cotton_protein.faa
-ncbi_dataset/
-ncbi_dataset.zip
-
-# HMM database files
-*.h3f
-*.h3i
-*.h3m
-*.h3p
-
-# Intermediate analysis files
-myb_domains.txt
-myb_results.txt
-myb_search_full.out
-myb_high_confidence.txt
-myb_gene_ids.txt
-myb_candidates.fasta
-
-# BLAST database
+# BLAST intermediate databases
 my_gene_db.*
 
-# Old experiments
-old_test_files/
+# Large intermediate alignment/tree files
+*.aligned.fasta
+*.trimmed.fasta
+myb_aligned*.fasta
+myb_trimmed*.fasta
+*.ckp.gz
+*.model.gz
+*.bionj
+*.mldist
+*.uniqueseq.phy
+*.log
 
-# Misc files
-apple/
-sample*.fastq
-expression.txt
-fruits.txt
-genes.txt
-query.fasta
-result.txt
-md5sum.txt
-README_backup.md
+# Archive of intermediate/deprecated files
+archive/
 
-# Old generated files
-apple
-gene_plot.png
-my_sequences.fasta
+# System files
+.DS_Store
+.Rhistory
+.Rproj.user/
+__pycache__/
+*.pyc
